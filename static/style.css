@@ -1,0 +1,28 @@
+.mycontainer {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+.card {
+    min-height: 466px;
+    overflow: hidden;
+}
+
+.card-image {
+    -height: 100px;
+    overflow: hidden;
+}
+
+#Responsiveness
+
+@media only screen and (min-width: 601px) {
+  .mycontainer {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .mycontainer {
+    width: 95%;
+  }
+}
